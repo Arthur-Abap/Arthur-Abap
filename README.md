@@ -129,12 +129,12 @@
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arthur-Abap&theme=github_dark" alt="Resumo do perfil GitHub" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Arthur-Abap&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arthur-Abap&layout=compact&theme=github_dark&hide_border=true" alt="Linguagens mais usadas" />
 
 <br><br>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Arthur-Abap&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arthur-Abap&layout=compact&theme=github_dark&hide_border=true" alt="Linguagens mais usadas" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Arthur-Abap&theme=github-dark&hide_border=true&area=true" alt="Grafico de atividade GitHub" />
 
 </div>
 
