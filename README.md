@@ -146,8 +146,8 @@
   <a href="https://www.linkedin.com/in/arthur-medeiros08/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:arthur.mlaranjeira@senacsp.edu.br">
-    <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+  <a href="mailto:arthurmedeiros08@gmail.com">
+    <img src="https://img.shields.io/badge/arthurmedeiros08%40gmail.com-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="arthurmedeiros08@gmail.com" />
   </a>
 </p>
 
