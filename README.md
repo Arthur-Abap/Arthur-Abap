@@ -71,10 +71,9 @@ const arthur = {
 ![Prisma](https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma)
 
 ### IA, produtividade e automação
-![OpenAI](https://img.shields.io/badge/OpenAI-111827?style=for-the-badge&logo=openai)
-![Claude Code](https://img.shields.io/badge/Claude%20Code-111827?style=for-the-badge&logo=anthropic)
-![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-111827?style=for-the-badge&logo=googlegemini)
-![Codex](https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-111827?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-111827?style=for-the-badge&logo=googlegemini&logoColor=4285F4)
+![Codex](https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-111827?style=for-the-badge&logo=githubcopilot)
 ![Google Apps Script](https://img.shields.io/badge/Apps%20Script-111827?style=for-the-badge&logo=google)
 ![Omie API](https://img.shields.io/badge/Omie%20API-111827?style=for-the-badge)
