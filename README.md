@@ -4,7 +4,7 @@
 
 ### Desenvolvedor em formação · Automações · APIs · Integrações ERP
 
-Construindo soluções práticas com **JavaScript**, **TypeScript**, **Python**, **Node.js**, **React**, **SQL** e integrações com sistemas como **Omie ERP** e **Bitrix24**.
+Construindo soluções práticas com **JavaScript**, **TypeScript**, **Python**, **Node.js**, **React**, **SQL**, automações, IA aplicada e integrações com sistemas como **Omie ERP**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Medeiros-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-medeiros08/)
 ![São Paulo, BR](https://img.shields.io/badge/São%20Paulo-BR-238636?style=for-the-badge)
@@ -22,9 +22,28 @@ Atualmente estou construindo projetos próprios para evoluir como desenvolvedor 
 
 ```ts
 const arthur = {
-  foco: ["Desenvolvimento Web", "APIs", "Automações", "Integrações ERP"],
-  estudando: ["TypeScript", "React", "Node.js", "Python", "SAP ABAP"],
-  ferramentas: ["GitHub", "Omie API", "Bitrix24", "Google Apps Script", "Ollama"],
+  foco: [
+    "Desenvolvimento Web",
+    "APIs",
+    "Automações",
+    "Integrações ERP"
+  ],
+  estudando: [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Python",
+    "SAP ABAP"
+  ],
+  ferramentas: [
+    "GitHub",
+    "Omie API",
+    "Google Apps Script",
+    "Ollama",
+    "Claude Code",
+    "Gemini CLI",
+    "Codex"
+  ],
   objetivo: "Criar soluções úteis, bem organizadas e com impacto real no dia a dia."
 }
 ```
@@ -53,10 +72,12 @@ const arthur = {
 
 ### IA, produtividade e automação
 ![OpenAI](https://img.shields.io/badge/OpenAI-111827?style=for-the-badge&logo=openai)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-111827?style=for-the-badge&logo=anthropic)
+![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-111827?style=for-the-badge&logo=googlegemini)
+![Codex](https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-111827?style=for-the-badge&logo=githubcopilot)
 ![Google Apps Script](https://img.shields.io/badge/Apps%20Script-111827?style=for-the-badge&logo=google)
 ![Omie API](https://img.shields.io/badge/Omie%20API-111827?style=for-the-badge)
-![Bitrix24](https://img.shields.io/badge/Bitrix24-111827?style=for-the-badge)
 
 </div>
 
