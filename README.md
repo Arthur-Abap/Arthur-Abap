@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:020617,55:111827,100:00D7E8&text=Arthur%20Medeiros&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Desenvolvimento%20Web%20%7C%20Automa%C3%A7%C3%B5es%20%7C%20APIs%20%7C%20Integra%C3%A7%C3%B5es%20ERP&descAlignY=58&descSize=15" alt="Arthur Medeiros" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:020617,55:111827,100:00D7E8&text=Arthur%20Medeiros&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=An%C3%A1lise%20de%20Sistemas%20%7C%20QA%20%7C%20Automa%C3%A7%C3%B5es%20%7C%20IA&descAlignY=58&descSize=15" alt="Arthur Medeiros" />
 </p>
 
 <p align="center">
@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>, focado em desenvolvimento web,
-  automações, APIs e integrações entre sistemas. Tenho construído projetos próprios para resolver
-  problemas reais de produtividade, operação interna, ERP, planilhas e fluxos assistidos por IA.
+  Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>, com foco em entender problemas,
+  estruturar soluções e aprender construindo. Tenho explorado QA, automações, integrações, APIs,
+  análise de processos e desenvolvimento assistido por IA em projetos próprios e experimentos práticos.
 </p>
 
 ---
@@ -25,7 +25,7 @@
     <td width="50%">
       <strong>Foco atual</strong>
       <br><br>
-      Desenvolvimento web, APIs REST, automações internas, integrações ERP e ferramentas para organização de demandas.
+      QA, análise de processos, automações internas, APIs, integrações ERP e ferramentas para organização de demandas.
     </td>
     <td width="50%">
       <strong>Como venho evoluindo</strong>
