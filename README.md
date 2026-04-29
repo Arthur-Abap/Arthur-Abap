@@ -31,3 +31,19 @@
 <p align="center">
   <img src="./assets/readme/v2/projects.svg" width="100%" alt="Projetos em destaque de Arthur Medeiros" />
 </p>
+
+<p align="center">
+  <img src="./assets/readme/divider.svg" width="100%" alt="" />
+</p>
+
+<p align="center">
+  <img src="./assets/readme/contribution-activity.svg" width="100%" alt="GitHub contribution activity" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arthurmedeiros/arthurmedeiros/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arthurmedeiros/arthurmedeiros/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/arthurmedeiros/arthurmedeiros/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</p>
