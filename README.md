@@ -1,43 +1,18 @@
 <p align="center">
-  <img src="./assets/matrix-banner.svg" alt="Arthur Medeiros Matrix Terminal Banner" width="100%" />
+  <img src="./assets/profile-panel.svg" alt="Arthur Medeiros Matrix GitHub Profile" width="100%" />
 </p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=800&color=39FF14&center=true&vCenter=true&width=900&lines=Transformando+problemas+operacionais+em+solu%C3%A7%C3%B5es+reais;QA+%7C+Automa%C3%A7%C3%B5es+%7C+Integra%C3%A7%C3%B5es+%7C+IA;Construindo+sistemas+com+l%C3%B3gica%2C+clareza+e+estrat%C3%A9gia;Systems+%E2%80%A2+QA+%E2%80%A2+Automations+%E2%80%A2+AI" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Matrix divider" />
-</p>
-
 ## > whoami
 
-Estudante de Análise e Desenvolvimento de Sistemas, focado em qualidade de software, automações, integrações ERP/API e desenvolvimento assistido por IA.
+Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em qualidade de software, automações, integrações ERP/API e desenvolvimento assistido por IA.
 
-Busco transformar processos complexos em soluções simples, organizadas e eficientes, conectando tecnologia com problemas reais do dia a dia operacional.
+Tenho interesse em transformar processos operacionais complexos em soluções simples, organizadas e úteis no mundo real.
 
-- 🟢 ADS Student
-- 🟢 QA + Testes + Validação de Sistemas
-- 🟢 Automações internas e integrações ERP/API
-- 🟢 Explorando IA aplicada ao desenvolvimento
-- 🟢 Construindo projetos reais para resolver problemas reais
-
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Matrix divider" />
-</p>
-
-## > perfil_tecnico
-
-| Área | Descrição |
-|---|---|
-| Foco atual | QA, automações de processos, integrações ERP/API e desenvolvimento com IA |
-| Evolução | React, Node.js, TypeScript, Apps Script, Prisma, SQL e APIs |
-| Interesses | Sistemas internos, produtividade, dashboards, automação e agentes de IA |
-| Objetivo | Criar soluções úteis, bem organizadas e com impacto real para quem usa |
-
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Matrix divider" />
-</p>
+<br>
 
 ## > tech_stack.exe
 
@@ -66,7 +41,7 @@ Busco transformar processos complexos em soluções simples, organizadas e efici
 ![SAP ABAP](https://img.shields.io/badge/SAP_ABAP-0A1510?style=for-the-badge&logo=sap&logoColor=39FF14)
 ![Omie API](https://img.shields.io/badge/Omie_API-0A1510?style=for-the-badge&logoColor=39FF14)
 ![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-0A1510?style=for-the-badge&logo=googleappsscript&logoColor=39FF14)
-![REST APIs](https://img.shields.io/badge/REST_APIs-0A1510?style=for-the-badge&logo=fastapi&logoColor=39FF14)
+![REST APIs](https://img.shields.io/badge/REST_APIs-0A1510?style=for-the-badge&logoColor=39FF14)
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-0A1510?style=for-the-badge&logo=googlesheets&logoColor=39FF14)
 
 ### IA & Ferramentas
@@ -80,49 +55,31 @@ Busco transformar processos complexos em soluções simples, organizadas e efici
 ![Git](https://img.shields.io/badge/Git-0A1510?style=for-the-badge&logo=git&logoColor=39FF14)
 ![GitHub](https://img.shields.io/badge/GitHub-0A1510?style=for-the-badge&logo=github&logoColor=39FF14)
 
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Matrix divider" />
-</p>
+<br>
 
 ## > active_projects/
 
-| Projeto | Descrição |
-|---|---|
-| **Oráculo — Central de Demandas** <br><br> `Next.js` `TypeScript` `Prisma` `SQLite` <br><br> [Ver projeto](#) | Sistema local-first para organização de demandas, prazos, Kanban e histórico operacional. |
-| **VFP Omie Automation** <br><br> `Apps Script` `APIs` `Omie ERP` `SQL` <br><br> [Ver projeto](#) | Automações e integrações com Omie ERP, planilhas e rotinas operacionais. |
-| **Forge Gym MVP** <br><br> `Next.js` `TypeScript` `Supabase` `Tailwind` <br><br> [Ver projeto](#) | App fitness com autenticação, treinos, histórico e dashboards de evolução. |
-| **Projeto IA Agentes** <br><br> `Python` `Ollama` `Claude` `Automação` <br><br> [Ver projeto](#) | Experimentos com agentes locais, automação e IA integrada ao fluxo de desenvolvimento. |
+### Oráculo — Central de Demandas
+Sistema local-first para organização de demandas, prazos, Kanban e histórico operacional.<br>
+`Next.js` `TypeScript` `Prisma` `SQLite`<br>
+[Ver projeto →](#)
 
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Matrix divider" />
-</p>
+### VFP Omie Automation
+Automações e integrações com Omie ERP, planilhas e rotinas operacionais.<br>
+`Apps Script` `APIs` `Omie ERP` `SQL`<br>
+[Ver projeto →](#)
 
-## > github_status
+### Forge Gym MVP
+App fitness com autenticação, treinos, histórico e dashboards de evolução.<br>
+`Next.js` `TypeScript` `Supabase` `Tailwind`<br>
+[Ver projeto →](#)
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=arthur-abap&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=030B07&title_color=39FF14&text_color=8FBF9A&icon_color=39FF14" alt="GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthur-abap&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=030B07&title_color=39FF14&text_color=8FBF9A" alt="Top languages" />
-</p>
+### Projeto IA Agentes
+Experimentos com agentes locais, automação e IA integrada ao fluxo de desenvolvimento.<br>
+`Python` `Ollama` `Claude` `Automação`<br>
+[Ver projeto →](#)
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=arthur-abap&theme=chartreuse-dark&hide_border=true&background=030B07&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" alt="GitHub streak stats" />
-</p>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Matrix divider" />
-</p>
-
-## > contribution_graph
-
-<p align="center">
-  <img src="https://github.com/arthur-abap/arthur-abap/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</p>
-
-<!-- A animação snake depende do workflow .github/workflows/snake.yml rodar corretamente. -->
-
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Matrix divider" />
-</p>
+<br>
 
 ## > connect
 
@@ -140,8 +97,4 @@ Busco transformar processos complexos em soluções simples, organizadas e efici
 
 <p align="center">
   <code> Código. Automação. Integração. Inteligência. █ </code>
-</p>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Matrix divider" />
 </p>
