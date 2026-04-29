@@ -1,6 +1,6 @@
 <p align="center">
   <img src="./assets/readme/v2/hero.svg" width="100%" alt="Arthur Medeiros - Systems, QA, Automations and AI" />
-
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/arthur-medeiros08/" target="_blank">
