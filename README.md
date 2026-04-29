@@ -7,7 +7,7 @@
     <img src="./assets/readme/btn-linkedin.svg" alt="LinkedIn Arthur Medeiros" height="42" />
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:arthurmedeiros.dev@gmail.com">
+  <a href="mailto:arthurmedeiros08@gmail.com">
     <img src="./assets/readme/btn-email.svg" alt="Enviar e-mail para Arthur Medeiros" height="42" />
   </a>
 </p>
@@ -18,6 +18,14 @@
 
 <p align="center">
   <img src="./assets/readme/profile-panels.svg" width="100%" alt="Perfil técnico de Arthur Medeiros" />
+</p>
+
+<p align="center">
+  <img src="./assets/readme/tech-stack.svg" width="100%" alt="Tecnologias, ferramentas e áreas de atuação de Arthur Medeiros" />
+</p>
+
+<p align="center">
+  <img src="./assets/readme/divider.svg" width="100%" alt="" />
 </p>
 
 <p align="center">

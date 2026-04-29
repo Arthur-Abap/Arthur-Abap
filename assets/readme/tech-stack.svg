@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="760" viewBox="0 0 1200 760" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Tecnologias, ferramentas e áreas de atuação de Arthur Medeiros</title>
+  <desc id="desc">Stack organizada por categorias: Frontend e UI, Backend e Dados, ERP e Integrações, IA e Dev Tools, Qualidade e Processos.</desc>
+
+  <defs>
+    <linearGradient id="panel" x1="76" y1="160" x2="1124" y2="678" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111820"/>
+      <stop offset="0.58" stop-color="#0A0F14"/>
+      <stop offset="1" stop-color="#05070A"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="76" y1="160" x2="1124" y2="678" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39FF14" stop-opacity="0.34"/>
+      <stop offset="0.5" stop-color="#00FF85" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#39FF14" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="chipStroke" x1="0" y1="0" x2="130" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39FF14" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#00FF85" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="-190" y1="0" x2="120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FF85" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00FF85" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#00FF85" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(940 120) rotate(90) scale(250 500)">
+      <stop stop-color="#39FF14" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#05070A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-35%" y="-60%" width="170%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#39FF14" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .group { fill: #00FF85; font-size: 15px; font-weight: 800; }
+    .chipText { fill: #F5F7FA; font-size: 14px; font-weight: 700; }
+    .hint { fill: #A8B3C2; font-size: 17px; }
+  </style>
+
+  <rect width="1200" height="760" fill="#05070A"/>
+  <rect width="1200" height="760" fill="url(#grid)"/>
+  <rect width="1200" height="760" fill="url(#halo)"/>
+
+  <path d="M86 132H320V102H464M1042 132V92H1118M168 704H314V674" fill="none" stroke="#00FF85" stroke-opacity="0.10"/>
+  <circle cx="464" cy="102" r="3" fill="#39FF14" opacity="0.34"/>
+  <circle cx="1118" cy="92" r="3" fill="#00FF85" opacity="0.28"/>
+
+  <text class="mono" x="76" y="64" fill="#00FF85" font-size="16">&gt; stack &amp; tools</text>
+  <text class="sans" x="76" y="104" fill="#F5F7FA" font-size="34" font-weight="850">Stack organizada por área</text>
+  <text class="hint sans" x="76" y="134">Tecnologias, ferramentas e frentes que uso ou estudo no meu fluxo de trabalho.</text>
+
+  <g class="sans">
+    <g transform="translate(76 164)">
+      <rect width="512" height="160" rx="14" fill="url(#panel)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <rect width="512" height="160" rx="14" fill="none" stroke="#00FF85" stroke-opacity="0.08">
+        <animate attributeName="stroke-opacity" values="0.05;0.18;0.05" dur="7.8s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M0 0H512" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-180 1H95" stroke="url(#sweep)" stroke-width="2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;650 0;650 0" keyTimes="0;0.72;1" dur="7.8s" repeatCount="indefinite"/>
+      </path>
+      <text class="mono group" x="28" y="38">01 / Frontend &amp; UI</text>
+      <g class="mono chipText">
+        <g transform="translate(28 62)"><rect width="76" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="16" y="20">React</text></g>
+        <g transform="translate(116 62)"><rect width="88" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="15" y="20">Next.js</text></g>
+        <g transform="translate(216 62)"><rect width="116" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">TypeScript</text></g>
+        <g transform="translate(344 62)"><rect width="114" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">JavaScript</text></g>
+        <g transform="translate(28 104)"><rect width="126" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Tailwind CSS</text></g>
+      </g>
+    </g>
+
+    <g transform="translate(612 164)">
+      <rect width="512" height="160" rx="14" fill="url(#panel)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <path d="M0 0H512" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-190 1H90" stroke="url(#sweep)" stroke-width="2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;660 0;660 0" keyTimes="0;0.72;1" dur="8.4s" repeatCount="indefinite"/>
+      </path>
+      <text class="mono group" x="28" y="38">02 / Backend &amp; Dados</text>
+      <g class="mono chipText">
+        <g transform="translate(28 62)"><rect width="84" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Node.js</text></g>
+        <g transform="translate(124 62)"><rect width="78" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Python</text></g>
+        <g transform="translate(214 62)"><rect width="58" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">SQL</text></g>
+        <g transform="translate(284 62)"><rect width="80" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Prisma</text></g>
+        <g transform="translate(28 104)"><rect width="98" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Supabase</text></g>
+        <g transform="translate(138 104)"><rect width="110" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">PostgreSQL</text></g>
+      </g>
+    </g>
+
+    <g transform="translate(76 348)">
+      <rect width="512" height="174" rx="14" fill="url(#panel)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <path d="M0 0H512" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-170 1H96" stroke="url(#sweep)" stroke-width="2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;640 0;640 0" keyTimes="0;0.72;1" dur="8.8s" repeatCount="indefinite"/>
+      </path>
+      <text class="mono group" x="28" y="38">03 / ERP &amp; Integrações</text>
+      <g class="mono chipText">
+        <g transform="translate(28 62)"><rect width="94" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Omie API</text></g>
+        <g transform="translate(134 62)"><rect width="100" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">SAP ABAP</text></g>
+        <g transform="translate(246 62)"><rect width="112" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Apps Script</text></g>
+        <g transform="translate(28 104)"><rect width="62" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">APIs</text></g>
+        <g transform="translate(102 104)"><rect width="118" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Automações</text></g>
+      </g>
+    </g>
+
+    <g transform="translate(612 348)">
+      <rect width="512" height="174" rx="14" fill="url(#panel)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <path d="M0 0H512" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-185 1H90" stroke="url(#sweep)" stroke-width="2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;655 0;655 0" keyTimes="0;0.72;1" dur="9.2s" repeatCount="indefinite"/>
+      </path>
+      <text class="mono group" x="28" y="38">04 / IA &amp; Dev Tools</text>
+      <g class="mono chipText">
+        <g transform="translate(28 62)"><rect width="70" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Codex</text></g>
+        <g transform="translate(110 62)"><rect width="124" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Claude Code</text></g>
+        <g transform="translate(246 62)"><rect width="118" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Gemini CLI</text></g>
+        <g transform="translate(28 104)"><rect width="122" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Antigravity</text></g>
+        <g transform="translate(150 104)"><rect width="78" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Ollama</text></g>
+      </g>
+    </g>
+
+    <g transform="translate(76 546)">
+      <rect width="1048" height="132" rx="14" fill="url(#panel)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <path d="M0 0H1048" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-220 1H120" stroke="url(#sweep)" stroke-width="2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;1210 0;1210 0" keyTimes="0;0.72;1" dur="10s" repeatCount="indefinite"/>
+      </path>
+      <text class="mono group" x="28" y="38">05 / Qualidade &amp; Processos</text>
+      <g class="mono chipText">
+        <g transform="translate(28 64)"><rect width="54" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="15" y="20">QA</text></g>
+        <g transform="translate(94 64)"><rect width="74" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Testes</text></g>
+        <g transform="translate(180 64)"><rect width="122" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Documentação</text></g>
+        <g transform="translate(314 64)"><rect width="204" height="30" rx="9" fill="#0E141B" stroke="url(#chipStroke)"/><text x="14" y="20">Automação de processos</text></g>
+      </g>
+    </g>
+  </g>
+
+  <g fill="#00FF85" filter="url(#glow)">
+    <circle cx="1060" cy="146" r="2" opacity="0.46">
+      <animate attributeName="opacity" values="0.12;0.72;0.12" dur="5.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1004" cy="700" r="2" opacity="0.34">
+      <animate attributeName="opacity" values="0.65;0.12;0.65" dur="6.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="520" r="2" opacity="0.28">
+      <animate attributeName="opacity" values="0.18;0.64;0.18" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
