@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="42" viewBox="0 0 330 42" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Enviar e-mail para Arthur Medeiros</title>
+  <desc id="desc">Botão visual com o e-mail arthurmedeiros.dev@gmail.com.</desc>
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="330" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18181E"/>
+      <stop offset="1" stop-color="#0A0A0C"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-80%" width="140%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="328" height="40" rx="12" fill="url(#fill)" stroke="#C8F135" stroke-opacity="0.45"/>
+  <path d="M15 15h22v15H15zM16 16l10 8 10-8" fill="none" stroke="#C8F135" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="50" y="27" fill="#F4F4F5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="750">arthurmedeiros.dev@gmail.com</text>
+  <path d="M244 40H306" stroke="#39FF14" stroke-opacity="0.5" stroke-width="1.4" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.25;0.9;0.25" dur="4.2s" repeatCount="indefinite"/>
+  </path>
+</svg>

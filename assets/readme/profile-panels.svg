@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="760" viewBox="0 0 1200 760" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Perfil técnico de Arthur Medeiros</title>
+  <desc id="desc">Cards com foco atual, evolução, interesses, objetivo e stack técnica de Arthur Medeiros.</desc>
+
+  <defs>
+    <linearGradient id="panelFill" x1="72" y1="70" x2="1128" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18181E"/>
+      <stop offset="0.55" stop-color="#101015"/>
+      <stop offset="1" stop-color="#0A0A0C"/>
+    </linearGradient>
+    <linearGradient id="cardStroke" x1="92" y1="96" x2="1108" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8F135" stop-opacity="0.42"/>
+      <stop offset="0.48" stop-color="#39FF14" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#C8F135" stop-opacity="0.26"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 156) rotate(90) scale(240 440)">
+      <stop stop-color="#39FF14" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0A0A0C" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="chipGlow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 H 0 V 44" fill="none" stroke="#C8F135" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .h { fill: #F4F4F5; font-size: 24px; font-weight: 800; }
+    .label { fill: #C8F135; font-size: 14px; font-weight: 800; }
+    .body { fill: #A1A1AA; font-size: 17px; }
+    .chip { fill: #F4F4F5; font-size: 14px; font-weight: 700; }
+  </style>
+
+  <rect width="1200" height="760" fill="#0A0A0C"/>
+  <rect width="1200" height="760" fill="url(#grid)"/>
+  <rect width="1200" height="760" fill="url(#halo)"/>
+
+  <text class="mono" x="76" y="66" fill="#C8F135" font-size="16">// profile.panels</text>
+  <text class="sans" x="76" y="106" fill="#F4F4F5" font-size="34" font-weight="850">Perfil em construção, com foco prático</text>
+  <text class="sans" x="76" y="136" fill="#A1A1AA" font-size="18">QA, automações, integrações e IA aplicadas a processos reais.</text>
+
+  <g class="sans">
+    <g transform="translate(76 176)">
+      <rect width="512" height="154" rx="18" fill="url(#panelFill)" stroke="url(#cardStroke)" stroke-width="1.2"/>
+      <g transform="translate(28 28)">
+        <rect x="0" y="0" width="42" height="42" rx="12" fill="#0A0A0C" stroke="#C8F135" stroke-opacity="0.32"/>
+        <path d="M13 22h16M21 14v16" stroke="#C8F135" stroke-width="2" stroke-linecap="round"/>
+        <text class="label mono" x="60" y="17">foco atual</text>
+        <text class="h" x="60" y="49">QA e automações</text>
+        <text class="body" x="0" y="91">QA, automações de processos, integrações ERP/API</text>
+        <text class="body" x="0" y="117">e desenvolvimento com IA.</text>
+      </g>
+    </g>
+
+    <g transform="translate(612 176)">
+      <rect width="512" height="154" rx="18" fill="url(#panelFill)" stroke="url(#cardStroke)" stroke-width="1.2"/>
+      <g transform="translate(28 28)">
+        <rect x="0" y="0" width="42" height="42" rx="12" fill="#0A0A0C" stroke="#C8F135" stroke-opacity="0.32"/>
+        <path d="M13 29l8-8 6 6 10-13" fill="none" stroke="#C8F135" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text class="label mono" x="60" y="17">como venho evoluindo</text>
+        <text class="h" x="60" y="49">Testes, integrações e IA</text>
+        <text class="body" x="0" y="91">Aprimorando testes, automações e integrações,</text>
+        <text class="body" x="0" y="117">explorando IA para soluções mais inteligentes.</text>
+      </g>
+    </g>
+
+    <g transform="translate(76 354)">
+      <rect width="512" height="154" rx="18" fill="url(#panelFill)" stroke="url(#cardStroke)" stroke-width="1.2"/>
+      <g transform="translate(28 28)">
+        <rect x="0" y="0" width="42" height="42" rx="12" fill="#0A0A0C" stroke="#C8F135" stroke-opacity="0.32"/>
+        <path d="M14 29c5-16 18-16 28 0M16 19h24" fill="none" stroke="#C8F135" stroke-width="2" stroke-linecap="round"/>
+        <text class="label mono" x="60" y="17">interesses</text>
+        <text class="h" x="60" y="49">APIs, ERP e agentes</text>
+        <text class="body" x="0" y="91">SAP/ABAP, Omie, IA generativa, agentes</text>
+        <text class="body" x="0" y="117">inteligentes e UX developer-friendly.</text>
+      </g>
+    </g>
+
+    <g transform="translate(612 354)">
+      <rect width="512" height="154" rx="18" fill="url(#panelFill)" stroke="url(#cardStroke)" stroke-width="1.2"/>
+      <g transform="translate(28 28)">
+        <rect x="0" y="0" width="42" height="42" rx="12" fill="#0A0A0C" stroke="#C8F135" stroke-opacity="0.32"/>
+        <path d="M15 29l7 7 18-24M14 16h16" fill="none" stroke="#C8F135" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text class="label mono" x="60" y="17">objetivo</text>
+        <text class="h" x="60" y="49">Resolver problemas reais</text>
+        <text class="body" x="0" y="91">Construir soluções que organizem processos e</text>
+        <text class="body" x="0" y="117">impulsionem negócios com tecnologia.</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(76 552)">
+    <rect width="1048" height="142" rx="18" fill="#101015" stroke="#C8F135" stroke-opacity="0.2"/>
+    <text class="mono" x="28" y="38" fill="#C8F135" font-size="15" font-weight="800">stack / interesses</text>
+    <g class="mono chip">
+      <g transform="translate(28 62)">
+        <rect width="76" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="18" y="21">React</text>
+      </g>
+      <g transform="translate(116 62)">
+        <rect width="88" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="16" y="21">Next.js</text>
+      </g>
+      <g transform="translate(216 62)">
+        <rect width="112" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="15" y="21">TypeScript</text>
+      </g>
+      <g transform="translate(340 62)">
+        <rect width="104" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="16" y="21">JavaScript</text>
+      </g>
+      <g transform="translate(456 62)">
+        <rect width="116" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="16" y="21">Tailwind CSS</text>
+      </g>
+      <g transform="translate(584 62)">
+        <rect width="84" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="16" y="21">Node.js</text>
+      </g>
+      <g transform="translate(680 62)">
+        <rect width="78" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="16" y="21">Python</text>
+      </g>
+      <g transform="translate(770 62)">
+        <rect width="58" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="17" y="21">SQL</text>
+      </g>
+      <g transform="translate(840 62)">
+        <rect width="76" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="16" y="21">Prisma</text>
+      </g>
+      <g transform="translate(928 62)">
+        <rect width="92" height="32" rx="16" fill="#18181E" stroke="#C8F135" stroke-opacity="0.25"/>
+        <text x="16" y="21">Supabase</text>
+      </g>
+
+      <g transform="translate(28 102)">
+        <rect width="92" height="32" rx="16" fill="#18181E" stroke="#39FF14" stroke-opacity="0.28"/>
+        <text x="16" y="21">SAP ABAP</text>
+      </g>
+      <g transform="translate(132 102)">
+        <rect width="86" height="32" rx="16" fill="#18181E" stroke="#39FF14" stroke-opacity="0.28"/>
+        <text x="16" y="21">Omie API</text>
+      </g>
+      <g transform="translate(230 102)">
+        <rect width="104" height="32" rx="16" fill="#18181E" stroke="#39FF14" stroke-opacity="0.28"/>
+        <text x="15" y="21">Apps Script</text>
+      </g>
+      <g transform="translate(346 102)">
+        <rect width="76" height="32" rx="16" fill="#18181E" stroke="#39FF14" stroke-opacity="0.28"/>
+        <text x="16" y="21">Ollama</text>
+      </g>
+      <g transform="translate(434 102)">
+        <rect width="110" height="32" rx="16" fill="#18181E" stroke="#39FF14" stroke-opacity="0.28"/>
+        <text x="16" y="21">Claude Code</text>
+      </g>
+      <g transform="translate(556 102)">
+        <rect width="98" height="32" rx="16" fill="#18181E" stroke="#39FF14" stroke-opacity="0.28"/>
+        <text x="16" y="21">Gemini CLI</text>
+      </g>
+    </g>
+    <circle cx="1016" cy="34" r="4" fill="#C8F135" filter="url(#chipGlow)">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
