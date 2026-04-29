@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="610" viewBox="0 0 1200 610" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Projetos em destaque de Arthur Medeiros</title>
+  <desc id="desc">Grade de projetos com Oráculo Central de Demandas, VFP Omie Automation, Forge Gym MVP e Projeto IA Agentes.</desc>
+
+  <defs>
+    <linearGradient id="card" x1="78" y1="112" x2="1122" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18181E"/>
+      <stop offset="0.62" stop-color="#101015"/>
+      <stop offset="1" stop-color="#0A0A0C"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="78" y1="112" x2="1122" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8F135" stop-opacity="0.42"/>
+      <stop offset="0.52" stop-color="#39FF14" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#C8F135" stop-opacity="0.28"/>
+    </linearGradient>
+    <radialGradient id="projectGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(206 148) rotate(90) scale(220 520)">
+      <stop stop-color="#C8F135" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0A0C" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M 46 0 H 0 V 46" fill="none" stroke="#C8F135" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .title { fill: #F4F4F5; font-size: 25px; font-weight: 850; }
+    .desc { fill: #A1A1AA; font-size: 17px; }
+    .tag { fill: #F4F4F5; font-size: 13px; font-weight: 700; }
+  </style>
+
+  <rect width="1200" height="610" fill="#0A0A0C"/>
+  <rect width="1200" height="610" fill="url(#grid)"/>
+  <rect width="1200" height="610" fill="url(#projectGlow)"/>
+
+  <text class="mono" x="76" y="64" fill="#C8F135" font-size="16">// featured.projects</text>
+  <text class="sans" x="76" y="104" fill="#F4F4F5" font-size="34" font-weight="850">Projetos em destaque</text>
+
+  <g class="sans">
+    <g transform="translate(76 136)">
+      <rect width="512" height="174" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.2"/>
+      <rect x="28" y="28" width="48" height="48" rx="14" fill="#0A0A0C" stroke="#C8F135" stroke-opacity="0.32"/>
+      <path d="M42 50h20M52 40v20M38 36h28v28H38z" fill="none" stroke="#C8F135" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="title" x="96" y="49">Oráculo — Central de Demandas</text>
+      <text class="desc" x="28" y="103">Sistema para gestão e acompanhamento de</text>
+      <text class="desc" x="28" y="128">demandas com automações e integrações.</text>
+      <g class="mono tag" transform="translate(28 144)">
+        <rect width="72" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="13" y="18">Next.js</text>
+        <rect x="82" width="94" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="95" y="18">TypeScript</text>
+        <rect x="186" width="72" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="201" y="18">Prisma</text>
+      </g>
+    </g>
+
+    <g transform="translate(612 136)">
+      <rect width="512" height="174" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.2"/>
+      <rect x="28" y="28" width="48" height="48" rx="14" fill="#0A0A0C" stroke="#C8F135" stroke-opacity="0.32"/>
+      <path d="M40 56h24M40 44h24M46 36v28M58 36v28" fill="none" stroke="#C8F135" stroke-width="2" stroke-linecap="round"/>
+      <text class="title" x="96" y="49">VFP Omie Automation</text>
+      <text class="desc" x="28" y="103">Automação em Visual FoxPro integrada ao ERP</text>
+      <text class="desc" x="28" y="128">Omie para sincronização de dados.</text>
+      <g class="mono tag" transform="translate(28 144)">
+        <rect width="52" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="14" y="18">VFP</text>
+        <rect x="62" width="82" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="77" y="18">Omie API</text>
+        <rect x="154" width="54" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="170" y="18">SQL</text>
+      </g>
+    </g>
+
+    <g transform="translate(76 340)">
+      <rect width="512" height="174" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.2"/>
+      <rect x="28" y="28" width="48" height="48" rx="14" fill="#0A0A0C" stroke="#C8F135" stroke-opacity="0.32"/>
+      <path d="M38 58c10-18 18-18 28 0M42 48h20M46 39h12" fill="none" stroke="#C8F135" stroke-width="2" stroke-linecap="round"/>
+      <text class="title" x="96" y="49">Forge Gym MVP</text>
+      <text class="desc" x="28" y="103">MVP de plataforma fitness com treinos, usuários</text>
+      <text class="desc" x="28" y="128">e progressão.</text>
+      <g class="mono tag" transform="translate(28 144)">
+        <rect width="72" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="13" y="18">Next.js</text>
+        <rect x="82" width="84" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="97" y="18">Tailwind</text>
+        <rect x="176" width="96" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="190" y="18">PostgreSQL</text>
+      </g>
+    </g>
+
+    <g transform="translate(612 340)">
+      <rect width="512" height="174" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.2"/>
+      <rect x="28" y="28" width="48" height="48" rx="14" fill="#0A0A0C" stroke="#C8F135" stroke-opacity="0.32"/>
+      <path d="M52 36v30M39 48h26M43 61c8-12 18-12 26 0" fill="none" stroke="#C8F135" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="52" cy="51" r="4" fill="#C8F135" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <text class="title" x="96" y="49">Projeto IA Agentes</text>
+      <text class="desc" x="28" y="103">Estudos e protótipos de agentes inteligentes com</text>
+      <text class="desc" x="28" y="128">IA generativa para automação.</text>
+      <g class="mono tag" transform="translate(28 144)">
+        <rect width="68" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="13" y="18">Python</text>
+        <rect x="78" width="72" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="93" y="18">Ollama</text>
+        <rect x="160" width="72" height="26" rx="13" fill="#18181E" stroke="#C8F135" stroke-opacity="0.24"/><text x="174" y="18">Claude</text>
+      </g>
+    </g>
+  </g>
+
+  <path d="M78 558H1122" stroke="#C8F135" stroke-opacity="0.08"/>
+  <circle cx="214" cy="558" r="3" fill="#C8F135" filter="url(#glow)">
+    <animate attributeName="cx" values="214;990;214" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.95;0.2" dur="12s" repeatCount="indefinite"/>
+  </circle>
+</svg>
