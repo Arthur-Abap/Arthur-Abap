@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="560" viewBox="0 0 1200 560" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Perfil técnico de Arthur Medeiros</title>
+  <desc id="desc">Quatro painéis de perfil com foco atual, evolução, interesses e objetivo de Arthur Medeiros.</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="76" y1="102" x2="1124" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111820"/>
+      <stop offset="0.56" stop-color="#0A0F14"/>
+      <stop offset="1" stop-color="#05070A"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="76" y1="102" x2="1124" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39FF14" stop-opacity="0.34"/>
+      <stop offset="0.52" stop-color="#00FF85" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#39FF14" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="-180" y1="0" x2="120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FF85" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00FF85" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00FF85" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 120) rotate(90) scale(240 450)">
+      <stop stop-color="#00FF85" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#05070A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.6" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#39FF14" stroke-opacity="0.032"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #00FF85; font-size: 15px; font-weight: 800; }
+    .body { fill: #A8B3C2; font-size: 17px; }
+    .icon { fill: none; stroke: #00FF85; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <rect width="1200" height="560" fill="#05070A"/>
+  <rect width="1200" height="560" fill="url(#grid)"/>
+  <rect width="1200" height="560" fill="url(#halo)"/>
+
+  <path d="M86 118H220V88H348M952 86V120H1110M104 492H286V458" fill="none" stroke="#00FF85" stroke-opacity="0.10"/>
+  <circle cx="348" cy="88" r="3" fill="#39FF14" opacity="0.36">
+    <animate attributeName="opacity" values="0.14;0.7;0.14" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="286" cy="458" r="3" fill="#00FF85" opacity="0.28">
+    <animate attributeName="opacity" values="0.55;0.12;0.55" dur="5.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <text class="mono" x="76" y="64" fill="#00FF85" font-size="16">// profile.panels</text>
+  <text class="sans" x="76" y="104" fill="#F5F7FA" font-size="34" font-weight="850">Perfil em construção, com foco prático</text>
+  <text class="sans" x="76" y="134" fill="#A8B3C2" font-size="18">QA, automações, integrações e IA aplicadas a processos reais.</text>
+
+  <g class="sans">
+    <g transform="translate(76 174)">
+      <rect width="512" height="156" rx="14" fill="url(#surface)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <rect width="512" height="156" rx="14" fill="none" stroke="#00FF85" stroke-opacity="0.05">
+        <animate attributeName="stroke-opacity" values="0.04;0.20;0.04" dur="7.4s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M0 0H512" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-170 1H120" stroke="url(#sweep)" stroke-width="2.4" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;650 0;650 0" keyTimes="0;0.72;1" dur="7.6s" repeatCount="indefinite"/>
+      </path>
+      <g transform="translate(28 26)">
+        <rect width="44" height="44" rx="10" fill="#0A0F14" stroke="#00FF85" stroke-opacity="0.26"/>
+        <circle class="icon" cx="22" cy="22" r="10">
+          <animate attributeName="opacity" values="0.62;1;0.62" dur="4.2s" repeatCount="indefinite"/>
+        </circle>
+        <path class="icon" d="M22 12v5M22 27v5M12 22h5M27 22h5M19 22h6">
+          <animate attributeName="opacity" values="0.62;1;0.62" dur="4.2s" repeatCount="indefinite"/>
+        </path>
+        <text class="label mono" x="62" y="18">foco atual</text>
+        <text class="body" x="0" y="72">QA, automações de processos, integrações</text>
+        <text class="body" x="0" y="96">ERP/API e desenvolvimento com IA.</text>
+      </g>
+    </g>
+
+    <g transform="translate(612 174)">
+      <rect width="512" height="156" rx="14" fill="url(#surface)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <rect width="512" height="156" rx="14" fill="none" stroke="#00FF85" stroke-opacity="0.05">
+        <animate attributeName="stroke-opacity" values="0.04;0.18;0.04" dur="8.1s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M0 0H512" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-190 1H120" stroke="url(#sweep)" stroke-width="2.4" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;670 0;670 0" keyTimes="0;0.72;1" dur="8.4s" repeatCount="indefinite"/>
+      </path>
+      <g transform="translate(28 26)">
+        <rect width="44" height="44" rx="10" fill="#0A0F14" stroke="#00FF85" stroke-opacity="0.24"/>
+        <path class="icon" d="M12 31l8-8 7 6 10-14M12 36h26">
+          <animate attributeName="opacity" values="0.56;1;0.56" dur="4.6s" repeatCount="indefinite"/>
+        </path>
+        <text class="label mono" x="62" y="18">como venho evoluindo</text>
+        <text class="body" x="0" y="72">Aprimorando testes, automações e integrações,</text>
+        <text class="body" x="0" y="96">explorando IA para criar soluções mais</text>
+        <text class="body" x="0" y="120">inteligentes e escaláveis.</text>
+      </g>
+    </g>
+
+    <g transform="translate(76 344)">
+      <rect width="512" height="156" rx="14" fill="url(#surface)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <rect width="512" height="156" rx="14" fill="none" stroke="#00FF85" stroke-opacity="0.05">
+        <animate attributeName="stroke-opacity" values="0.04;0.18;0.04" dur="8.8s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M0 0H512" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-160 1H125" stroke="url(#sweep)" stroke-width="2.4" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;640 0;640 0" keyTimes="0;0.72;1" dur="8.8s" repeatCount="indefinite"/>
+      </path>
+      <g transform="translate(28 26)">
+        <rect width="44" height="44" rx="10" fill="#0A0F14" stroke="#00FF85" stroke-opacity="0.24"/>
+        <circle class="icon" cx="15" cy="18" r="4"/>
+        <circle class="icon" cx="30" cy="15" r="4"/>
+        <circle class="icon" cx="29" cy="31" r="4"/>
+        <path class="icon" d="M19 17l7-1M18 21l8 8">
+          <animate attributeName="opacity" values="0.58;1;0.58" dur="4.9s" repeatCount="indefinite"/>
+        </path>
+        <text class="label mono" x="62" y="18">interesses</text>
+        <text class="body" x="0" y="72">APIs, ERP, SAP/ABAP, Omie, IA generativa,</text>
+        <text class="body" x="0" y="96">agentes inteligentes e UX developer-friendly.</text>
+      </g>
+    </g>
+
+    <g transform="translate(612 344)">
+      <rect width="512" height="156" rx="14" fill="url(#surface)" stroke="url(#stroke)" stroke-width="1.1"/>
+      <rect width="512" height="156" rx="14" fill="none" stroke="#00FF85" stroke-opacity="0.05">
+        <animate attributeName="stroke-opacity" values="0.04;0.20;0.04" dur="9.2s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M0 0H512" stroke="#39FF14" stroke-opacity="0.08"/>
+      <path d="M-180 1H124" stroke="url(#sweep)" stroke-width="2.4" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;660 0;660 0" keyTimes="0;0.72;1" dur="9.2s" repeatCount="indefinite"/>
+      </path>
+      <g transform="translate(28 26)">
+        <rect width="44" height="44" rx="10" fill="#0A0F14" stroke="#00FF85" stroke-opacity="0.24"/>
+        <path class="icon" d="M16 34V13M17 14h18l-4 6 4 6H17M22 30l5 5 10-13">
+          <animate attributeName="opacity" values="0.56;1;0.56" dur="5.2s" repeatCount="indefinite"/>
+        </path>
+        <text class="label mono" x="62" y="18">objetivo</text>
+        <text class="body" x="0" y="76">Construir soluções que resolvam problemas reais</text>
+        <text class="body" x="0" y="102">e impulsionem negócios com tecnologia.</text>
+      </g>
+    </g>
+  </g>
+
+  <g fill="#00FF85" filter="url(#glow)">
+    <circle cx="1070" cy="154" r="2" opacity="0.42">
+      <animate attributeName="opacity" values="0.12;0.7;0.12" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="154" cy="518" r="2" opacity="0.34">
+      <animate attributeName="opacity" values="0.65;0.12;0.65" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="918" cy="424" r="2" opacity="0.28">
+      <animate attributeName="cx" values="918;940;918" dur="7.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.12;0.58;0.12" dur="7.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
